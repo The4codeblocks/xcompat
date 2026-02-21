@@ -17,15 +17,15 @@ See the respective sub apis doc file in /doc for detailed documentation.
 
 | Games             | Sounds    | Materials | Textures  | Player | Stairs | Crafting |
 | ----------------- | --------- | --------- | --------- | ------ | ------ | -------- |
-| Minetest Game     | x         | x         | x         | x      | x      |          |
-| MineClone2        | x         | x         |           | x      |        |          |
-| Mineclonia        | x         | x         |           | x      |        |          |
-| Hades Revisited   | x         | x         |           |        |        |          |
-| Farlands Reloaded | x         | x         | x         | x      | x      |          |
+| Minetest Game     | x         | x         | x         | x      | x      | x        |
+| MineClone2        | x         | x         |           | x      |        | x        |
+| Mineclonia        | x         | x         |           | x      |        | x        |
+| Hades Revisited   | x         | x         |           |        |        | x        |
+| Farlands Reloaded | x         | x         | x         | x      | x      | x        |
 | Exile             | x         |           |           |        |        |          |
-| KSurvive 2        | x         |           |           |        |        |          |
+| KSurvive 2        | x         |           |           |        |        | x        |
 | Forgotten Lands   | x         |           |           |        |        |          |
-| Development Test  |           | x         | x         |        |        |          |
+| Development Test  |           | x         | x         |        |        | x        |
 
 For functions see /doc/functions.md for the specifics relating to the function
 
