@@ -10,7 +10,9 @@ return function(def)
         return
     elseif t == "cooking" then
         local result = def.output
-        local is_output_edible = (core.get_item_group(result, "edible") > 0) or (core.get_item_group(result, "food") > 0)
+        local is_output_edible =
+            (core.get_item_group(result, "edible") > 0) or
+            (core.get_item_group(result, "food") > 0)
         return aom_cooking.register_cooking({
             raw = def.recipe,
             cooked = result,
