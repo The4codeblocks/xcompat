@@ -111,7 +111,7 @@ elseif minetest.get_modpath("x_farming") then
 end
 
 if minetest.get_modpath("moreores") then
-    pick_silver = "moreores:pick_silver",
+    pick_silver = "moreores:pick_silver"
     materials.silver_ingot = "moreores:silver_ingot"
     materials.mithril_block = "moreores:mithril_block"
     materials.mithril_ingot = "moreores:mithril_ingot"
