@@ -117,7 +117,7 @@ if minetest.get_modpath("moreores") then
 end
 
 if core.get_modpath("mesecons_materials") then
-    materials.silicon = "mesecons_materials:silicon",
+    materials.silicon = "mesecons_materials:silicon"
     materials.insulation = "mesecons_materials:fiber"
 end
 
